@@ -13,5 +13,6 @@ mongoose.connect('mongodb://localhost/mydb', {
 
 app.use(cors());
 app.use(express.json());
+app.use(products);
 
 app.listen(8080);

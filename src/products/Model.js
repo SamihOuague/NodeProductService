@@ -7,8 +7,8 @@ const Schema = new mongoose.Schema({
   img: String
 });
 
-Schema.pre('save', function (next) {
-  
-});
+//Schema.pre('save', function (next) {
+//  
+//});
 
 module.exports = mongoose.model('Product', Schema);
